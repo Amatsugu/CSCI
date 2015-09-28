@@ -19,9 +19,9 @@ public class Keno
 		spots = Math.abs(spots);
 		value = Math.abs(value);
 		numberOfPlays = Math.abs(numberOfPlays);
-		MathV.Clamp(spots, 1, 10);
-		MathV.Clamp(numberOfPlays, 1, 20);
-		MathV.Clamp(value, 1, 3);
+		spots = MathV.Clamp(spots, 1, 10);
+		numberOfPlays = MathV.Clamp(numberOfPlays, 1, 20);
+		value = MathV.Clamp(value, 1, 3);
 		this.spots = spots;
 		this.value = value;
 		this.numberOfPlays = numberOfPlays;
@@ -39,6 +39,16 @@ public class Keno
 		plays = new int[spots];
 		for(int i = 0; i < spots; i++)
 			numbers[i] = rand.nextInt(80)+1;
+	}
+	
+	public String getNumbers()
+	{
+		String out = "[";
+		for(int n : numbers)
+			out += n + ",";
+		out = out.substring(0, out.length()-1);
+		out+= "]";
+		return out;
 	}
 	
 	public float CalculateWinnings()

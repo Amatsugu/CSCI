@@ -8,8 +8,8 @@ public class App
 	public static void main(String[] args)
 	{
 		Scanner in = new Scanner(System.in);
-		Debug.log("Enter Name: ");
+		Debug.lognr("Enter Name: ");
 		String input = in.next();
-		Debug.log("Welcome " + input);
+		Debug.lognr("Welcome " + input);
 	}
 }

@@ -14,8 +14,8 @@ public class Student extends Person
 	
 	public void writeOutput()
 	{
-		Debug.logln("Name: " + name);
-		Debug.logln("ID: " + studentID);
+		Debug.log("Name: " + name);
+		Debug.log("ID: " + studentID);
 	}
 
 	public void reset(String name, String studentID)

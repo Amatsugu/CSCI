@@ -28,8 +28,8 @@ public class UnderGraduate extends Student
 	
 	public void writeOutput()
 	{
-		Debug.logln("Name: " + name);
-		Debug.logln("ID: " + studentID);
-		Debug.logln("Level " + level);
+		Debug.log("Name: " + name);
+		Debug.log("ID: " + studentID);
+		Debug.log("Level " + level);
 	}
 }

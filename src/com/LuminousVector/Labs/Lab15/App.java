@@ -4,7 +4,7 @@ import com.LuminousVector.Utils.Debug;
 
 public class App
 {
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		Clock c = new Clock(10, 56, 1);
 		Debug.log(c.toString());
