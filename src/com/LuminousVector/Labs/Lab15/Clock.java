@@ -22,7 +22,12 @@ public class Clock
 	
 	public void setHour(int value)
 	{
-		hr = MathV.Clamp(value, 0, 59);
+		hr = MathV.Clamp(value, 0, 23);
+	}
+	
+	public int getHours()
+	{
+		return hr;
 	}
 	
 	public void setMinutes(int value)
@@ -30,9 +35,19 @@ public class Clock
 		min = MathV.Clamp(value, 0, 59);
 	}
 	
+	public int getMinutes()
+	{
+		return min;
+	}
+	
 	public void setSeconds(int value)
 	{
 		sec = MathV.Clamp(value, 0, 59);
+	}
+	
+	public int getSeconds()
+	{
+		return sec;
 	}
 	
 	public String toString()
