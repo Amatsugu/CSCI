@@ -41,6 +41,17 @@ public class Keno
 			numbers[i] = rand.nextInt(80)+1;
 	}
 	
+	public float CalculateWinnings()
+	{
+		float winnings = 0;
+		for(int p : plays)
+		{
+			if(contains(p, numbers))
+				winnings += value;
+		}
+		return winnings;
+	}
+	
 	public int MakePlay()
 	{
 		if(curPlay >= numberOfPlays)
@@ -49,5 +60,15 @@ public class Keno
 		plays[curPlay] = play;
 		curPlay++;
 		return play;
+	}
+	
+	boolean contains(int value, int[] array)
+	{
+		for(int i : array)
+		{
+			if(i == value)
+				return true;
+		}
+		return false;
 	}
 }
