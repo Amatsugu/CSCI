@@ -35,9 +35,9 @@ public class Keno
 	
 	public void SetNumbers()
 	{
-		numbers = new int[spots];
-		plays = new int[spots];
-		for(int i = 0; i < spots; i++)
+		numbers = new int[numberOfPlays];
+		plays = new int[numberOfPlays];
+		for(int i = 0; i < numberOfPlays; i++)
 			numbers[i] = rand.nextInt(80)+1;
 	}
 	
@@ -45,6 +45,16 @@ public class Keno
 	{
 		String out = "[";
 		for(int n : numbers)
+			out += n + ",";
+		out = out.substring(0, out.length()-1);
+		out+= "]";
+		return out;
+	}
+	
+	public String getPlays()
+	{
+		String out = "[";
+		for(int n : plays)
 			out += n + ",";
 		out = out.substring(0, out.length()-1);
 		out+= "]";

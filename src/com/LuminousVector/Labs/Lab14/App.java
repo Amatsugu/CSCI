@@ -18,20 +18,20 @@ public class App
 		int plays = in.nextInt();
 		Debug.lognr("How much will you bet? (1-3): ");
 		int bet = in.nextInt();
-		Keno kenoSlip = new Keno(spots, plays, bet);
+		Keno kenoSlip = new Keno(spots, bet, plays);
 		Debug.log("Enter your numbers seperated by commas (1-80):");
 		Debug.log("Enter QUIK PIK to generate random numbers");
 		String numbers = in.next();
-		if(numbers.equalsIgnoreCase("QUIK PIK"))
+		if(numbers.toUpperCase().equals("QUIK PIK"))
 			kenoSlip.SetNumbers();
 		else
 		{
 			String[] nums = numbers.split(Pattern.quote(","));
 			Random r = new Random();
 			int pos = 0;
+			int[] intNums = new int[plays];
 			for(String s : nums)
 			{
-				int[] intNums = new int[spots];
 				int n = r.nextInt(80)+1;
 				try
 				{
@@ -49,10 +49,27 @@ public class App
 				{
 					Debug.log("Extra number \'"+ n +"\', ignoring...");
 				}
-				kenoSlip.SetNumbers(intNums);
 			}
+			if(pos < plays)
+			{
+				Debug.log("Not enough numbers provided, generating...");
+				for(int i = pos; i < spots; i++)
+				{
+					intNums[pos] = r.nextInt(80)+1;
+					pos++;
+				}
+			}
+			kenoSlip.SetNumbers(intNums);
 		}
-		Debug.log(kenoSlip.getNumbers());
+		Debug.log("Your numbers are: " + kenoSlip.getNumbers());
+		Debug.log("Making " + plays + " plays...");
+		int lastPlay = 0;
+		while(lastPlay != -1)
+		{
+			lastPlay = kenoSlip.MakePlay();
+		}
+		Debug.log("The plays are: " + kenoSlip.getPlays());
+		Debug.log("Your winnings are: $" + kenoSlip.CalculateWinnings());
 		in.close();
 	}
 }
