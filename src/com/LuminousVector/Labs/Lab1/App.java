@@ -11,5 +11,6 @@ public class App
 		Debug.lognr("Enter Name: ");
 		String input = in.next();
 		Debug.lognr("Welcome " + input);
+		in.close();
 	}
 }
