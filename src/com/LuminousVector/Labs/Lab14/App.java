@@ -29,7 +29,7 @@ public class App
 			String[] nums = numbers.split(Pattern.quote(","));
 			Random r = new Random();
 			int pos = 0;
-			int[] intNums = new int[plays];
+			int[] intNums = new int[spots];
 			for(String s : nums)
 			{
 				int n = r.nextInt(80)+1;
@@ -55,7 +55,7 @@ public class App
 				Debug.log("Not enough numbers provided, generating...");
 				for(int i = pos; i < spots; i++)
 				{
-					intNums[pos] = r.nextInt(80)+1;
+					intNums[i] = r.nextInt(80)+1;
 					pos++;
 				}
 			}

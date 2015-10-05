@@ -2,7 +2,7 @@ package com.LuminousVector.Excersies.Tree;
 
 public class Triangle extends ShapeBasics implements TriangleInterface
 {
-	private int base;
+	protected int base;
 
 	public Triangle()
 	{
@@ -28,7 +28,7 @@ public class Triangle extends ShapeBasics implements TriangleInterface
 		drawBase();
 	}
 	
-	public void drawTop()
+	void drawTop()
 	{
 		for(int i = 0; i < base; i+=2)
 		{
@@ -39,7 +39,7 @@ public class Triangle extends ShapeBasics implements TriangleInterface
 		}
 	}
 
-	private void drawBase()
+	protected void drawBase()
 	{
 		skipSpaces(getOffset());
 		for (int count = 0; count < base; count++)
@@ -72,7 +72,7 @@ public class Triangle extends ShapeBasics implements TriangleInterface
 		}
 	}
 
-	private static void skipSpaces(int number)
+	protected static void skipSpaces(int number)
 	{
 		for (int count = 0; count < number; count++)
 			System.out.print(' ');

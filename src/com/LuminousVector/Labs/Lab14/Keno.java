@@ -30,12 +30,13 @@ public class Keno
 	public void SetNumbers(int[] numbers)
 	{
 		this.numbers = numbers;
-		plays = new int[numbers.length];
+		spots = numbers.length;
+		plays = new int[numberOfPlays];
 	}
 	
 	public void SetNumbers()
 	{
-		numbers = new int[numberOfPlays];
+		numbers = new int[spots];
 		plays = new int[numberOfPlays];
 		for(int i = 0; i < numberOfPlays; i++)
 			numbers[i] = rand.nextInt(80)+1;
