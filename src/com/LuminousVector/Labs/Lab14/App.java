@@ -22,7 +22,7 @@ public class App
 		Debug.log("Enter your numbers seperated by commas (1-80):");
 		Debug.log("Enter QUIK PIK to generate random numbers");
 		String numbers = in.next();
-		if(numbers.toUpperCase().equals("QUIK PIK"))
+		if(numbers.toUpperCase().equals("QUIKPIK"))
 			kenoSlip.SetNumbers();
 		else
 		{

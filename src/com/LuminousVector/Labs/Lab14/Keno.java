@@ -30,7 +30,6 @@ public class Keno
 	public void SetNumbers(int[] numbers)
 	{
 		this.numbers = numbers;
-		spots = numbers.length;
 		plays = new int[numberOfPlays];
 	}
 	

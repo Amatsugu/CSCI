@@ -54,6 +54,16 @@ public class Rectangle extends ShapeBasics implements RectangleInterface
 		System.out.println('|');
 	}
 
+	public int getPerimeter()
+	{
+		return 2 * (height + width);
+	}
+	
+	public int getArea()
+	{
+		return height * width;
+	}
+
 	// Writes the indicated number of spaces.
 	private static void skipSpaces(int number)
 	{

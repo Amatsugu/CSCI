@@ -1,5 +1,7 @@
 package com.LuminousVector.Excersies.Tree;
 
+import com.LuminousVector.Utils.Debug;
+
 public class RightTriangle extends Triangle
 {
 	public RightTriangle(int offset, int base)
@@ -15,12 +17,31 @@ public class RightTriangle extends Triangle
 	
 	void drawTop()
 	{
+		Debug.log("");
 		for(int i = 0; i < base; i++)
 		{
 			skipSpaces(getOffset());
-			System.out.print('*');
+			Debug.lognr('*');
 			skipSpaces(i);
-			System.out.println('*');
+			Debug.log('*');
 		}
+	}
+	
+	protected void drawBase()
+	{
+		skipSpaces(getOffset());
+		for(int i = 0; i < base; i++)
+			Debug.lognr("*");
+		Debug.log("*");
+	}
+	
+	public float getPerimeter()
+	{
+		return (float) ((2* base) + Math.sqrt(base*base*2)); 
+	}
+	
+	public float getArea()
+	{
+		return (.5f)*(base*base);
 	}
 }
