@@ -19,4 +19,32 @@ public class MathV
 			value = max;
 		return value;
 	}
+	
+	public static String FormatZeros(int num, int zeros)
+	{
+		String out = num + "";
+		if(out.length() < zeros)
+		{
+			for(int i = out.length(); i < zeros; i++)
+			{
+				out = "0" + out;
+			}
+		}
+		return out;
+	}
+	
+	public static String FormatZeros(float num, int zeros)
+	{
+		String out = num + "";
+		String d = out.contains(".") ? out.split(".")[1] : out;
+		if(d.length() < zeros)
+		{
+			for(int i = d.length(); i < zeros; i++)
+			{
+				d = "0" + d;
+			}
+			out = ((int)num) + d;
+		}
+		return out;
+	}
 }

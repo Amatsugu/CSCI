@@ -1,0 +1,6 @@
+---BEGIN TRANSACTION---
+3 procut1 was purchased at $5.7 each, $17.099998 in total.
+9 soda was purchased at $3.0 each, $27.0 in total.
+5 chips was purchased at $1.36 each, $6.8 in total.
+The total is $10.059999
+---END TRANSACRTION---
