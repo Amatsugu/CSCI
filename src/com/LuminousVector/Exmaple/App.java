@@ -18,5 +18,6 @@ public class App
 				calc.SetGrade(in.nextFloat());
 			}
 		}while(!calc.Calculate());
+		in.close();
 	}
 }

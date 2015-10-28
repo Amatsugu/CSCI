@@ -34,4 +34,9 @@ public class Time
 	{
 		return MathV.FormatZeros(hours, 2) + ":" + MathV.FormatZeros(minutes, 2);
 	}
+	
+	public String toString()
+	{
+		return getTime();
+	}
 }

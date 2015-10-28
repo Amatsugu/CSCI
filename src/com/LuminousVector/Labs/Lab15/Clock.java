@@ -52,7 +52,7 @@ public class Clock
 	
 	public String toString()
 	{
-		return hr + ":" + min + ":" + sec;
+		return MathV.FormatZeros(hr, 2) + ":" + MathV.FormatZeros(min, 2) + ":" + MathV.FormatZeros(sec, 2);
 	}
 	
 	public boolean equals(Object obj)

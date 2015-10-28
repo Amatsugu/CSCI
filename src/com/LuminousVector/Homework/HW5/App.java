@@ -27,7 +27,7 @@ public class App
 			int itemCount = in.nextInt();
 			t.AddItem(itemName, itemPrice, itemCount);
 		}
-		in.close();
+		in.close();	
 		String log = t.GetLog();
 		File f = new File("output.txt");
 		try
