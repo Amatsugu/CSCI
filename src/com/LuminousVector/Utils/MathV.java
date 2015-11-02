@@ -32,19 +32,4 @@ public class MathV
 		}
 		return out;
 	}
-	
-	public static String FormatZeros(float num, int zeros)
-	{
-		String out = num + "";
-		String d = out.contains(".") ? out.split(".")[1] : out;
-		if(d.length() < zeros)
-		{
-			for(int i = d.length(); i < zeros; i++)
-			{
-				d = "0" + d;
-			}
-			out = ((int)num) + d;
-		}
-		return out;
-	}
 }
