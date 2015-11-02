@@ -3,7 +3,7 @@ package com.LuminousVector.Labs.Lab18;
 import com.LuminousVector.Homework.HW4.Time;
 import com.LuminousVector.Labs.Lab15.AlarmClock;
 
-public class App
+public class WriterApp
 {
 
 	public static void main(String[] args)

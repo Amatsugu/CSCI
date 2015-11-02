@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 import com.LuminousVector.Utils.Debug;
 
-public class App
+public class KenoApp
 {
 	public static void main(String[] args)
 	{

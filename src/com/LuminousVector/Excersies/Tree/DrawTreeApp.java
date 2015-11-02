@@ -2,7 +2,7 @@ package com.LuminousVector.Excersies.Tree;
 
 import com.LuminousVector.Utils.Debug;
 
-public class App
+public class DrawTreeApp
 {
 	public static void main(String[] args)
 	{

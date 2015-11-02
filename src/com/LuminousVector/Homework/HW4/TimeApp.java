@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import com.LuminousVector.Utils.Debug;
 
-public class App
+public class TimeApp
 {
 	public static void main(String[] args)
 	{

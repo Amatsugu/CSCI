@@ -5,7 +5,7 @@ import java.io.*;
 
 import com.LuminousVector.Utils.Debug;
 
-public class App
+public class StoreApp
 {
 	public static void main(String[] args)
 	{

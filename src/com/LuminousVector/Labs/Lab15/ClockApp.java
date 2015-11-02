@@ -2,7 +2,7 @@ package com.LuminousVector.Labs.Lab15;
 
 import com.LuminousVector.Utils.Debug;
 
-public class App
+public class ClockApp
 {
 	public static void main(String[] args)
 	{
