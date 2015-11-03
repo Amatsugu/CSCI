@@ -32,10 +32,10 @@ public class StoreApp
 		File f = new File("output.txt");
 		try
 		{
-			if (!f.exists())
-			{
-				f.createNewFile();
-			}
+			//if (!f.exists())
+			//{
+			//	f.createNewFile();
+			//}
 			FileWriter fw = new FileWriter("output.txt");
 			fw.append(log);
 			fw.flush();
