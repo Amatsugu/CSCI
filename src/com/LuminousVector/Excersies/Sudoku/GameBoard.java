@@ -43,9 +43,10 @@ public class GameBoard
 	private void SetupBoard()
 	{
 		UIManager ui = SudokuApp.getUIManager();
+		ui.addPanel(new UIPanel(new Vector2i(5,5), new Vector2i(SudokuApp.GetWidth()-10, 55), 0x110011).addComponent(new UILabel(Vector2i.zero, "Sudoku", 50, 0xff00ff)));
 		for (int x = 0; x < 9; x++)
 		{
-			//Seperator
+			//Border
 			if(x % 3 == 0 && x != 0)
 			{
 				Vector2i pos = new Vector2i(this.x + (x*(tileSize+tileSpacing)), this.y - tileSpacing);
@@ -55,7 +56,7 @@ public class GameBoard
 			}
 			for (int y = 0; y < 9; y++)
 			{
-				//Sepperator
+				//Border
 				if(y % 3 == 0 && y != 0)
 				{
 					Vector2i pos = new Vector2i(this.x - tileSpacing, this.y + (y*(tileSize+tileSpacing)));
