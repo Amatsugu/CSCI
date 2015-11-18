@@ -39,7 +39,7 @@ public class SudokuApp extends  Canvas implements Runnable
 		frame = new JFrame();
 		key = new Keyboard();
 		uiManager = new UIManager();
-		board = new GameBoard(-1, -1, 60, 5);
+		board = new GameBoard(-1, -1, 60, 6);
 
 		Mouse m = new Mouse();
 		addMouseListener(m);

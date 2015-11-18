@@ -45,12 +45,28 @@ public class GameBoard
 		UIManager ui = SudokuApp.getUIManager();
 		for (int x = 0; x < 9; x++)
 		{
-
+			//Seperator
+			if(x % 3 == 0 && x != 0)
+			{
+				Vector2i pos = new Vector2i(this.x + (x*(tileSize+tileSpacing)), this.y - tileSpacing);
+				pos.x -= tileSpacing/2;
+				UIPanel yLine = new UIPanel(pos, new Vector2i(1,((tileSize+tileSpacing)*9)+(2*tileSpacing)), 0xffffff);
+				ui.addPanel(yLine);
+			}
 			for (int y = 0; y < 9; y++)
 			{
+				//Sepperator
+				if(y % 3 == 0 && y != 0)
+				{
+					Vector2i pos = new Vector2i(this.x - tileSpacing, this.y + (y*(tileSize+tileSpacing)));
+					pos.y -= tileSpacing/2;
+					UIPanel xLine = new UIPanel(pos, new Vector2i(((tileSize+tileSpacing)*9)+(2*tileSpacing), 1), 0xffffff);
+					ui.addPanel(xLine);
+				}
+				//tile
 				Vector2i pos = new Vector2i(this.x + (x*(tileSize+tileSpacing)), this.y + (y*(tileSize+tileSpacing)));
 				String curTile = (tiles[x+y*9] <= 0) ? " " : tiles[x+y*9] + "";
-				UIPanel panel = new UIPanel(pos, new Vector2i(tileSize, tileSize), 0xff00ff, false).addComponent(new UILabel(Vector2i.zero,curTile));
+				UIPanel panel = new UIPanel(pos, new Vector2i(tileSize, tileSize), 0x555555, false).addComponent(new UILabel(Vector2i.zero,curTile));
 				ui.addPanel(panel);
 			}
 		}
@@ -64,17 +80,5 @@ public class GameBoard
 	public void Render(Screen screen, Graphics g)
 	{
 
-		/*for (int x = 0; x < 9; x++)
-		{
-			for (int y = 0; y < 9; y++)
-			{
-				int xp = this.x + (x*(tileSize+tileSpacing));
-				int yp = this.y + (y*(tileSize+tileSpacing));
-				screen.DrawRect(xp, yp, tileSize, tileSize, 0xff00ff);
-				String curTile = (tiles[x+y*9] <= 0) ? " " : tiles[x+y*9] + "";
-				g.setFont(new Font("TimesRoman", Font.PLAIN, 25));
-				g.drawString(curTile, xp, yp);
-			}
-		}*/
 	}
 }
