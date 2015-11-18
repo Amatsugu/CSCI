@@ -32,4 +32,19 @@ public class MathV
 		}
 		return out;
 	}
+
+	public static double ArrayAverage(double[] array)
+	{
+		return  ArraySum(array)/array.length;
+	}
+
+	public static double ArraySum(double[] array)
+	{
+		double sum = 0;
+		for (double f: array)
+		{
+			sum += f;
+		}
+		return  sum;
+	}
 }
