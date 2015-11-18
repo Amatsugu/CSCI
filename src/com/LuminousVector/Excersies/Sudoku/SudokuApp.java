@@ -36,10 +36,10 @@ public class SudokuApp extends  Canvas implements Runnable
 		setPreferredSize(size);
 
 		screen = new Screen(WIDTH, HEIGHT);
-		board = new GameBoard(-1, -1, 30, 5);
 		frame = new JFrame();
 		key = new Keyboard();
 		uiManager = new UIManager();
+		board = new GameBoard(-1, -1, 60, 5);
 
 		Mouse m = new Mouse();
 		addMouseListener(m);
@@ -135,13 +135,13 @@ public class SudokuApp extends  Canvas implements Runnable
 			createBufferStrategy(3);
 			return;
 		}
+		Graphics g = bs.getDrawGraphics();
 		screen.Clear();
-		board.Render(screen);
+		board.Render(screen, g);
 		for(int i = 0; i < pixels.length; i++)
 		{
 			pixels[i] = screen.pixels[i];
 		}
-		Graphics g = bs.getDrawGraphics();
 		g.drawImage(image, 0, 0, getWidth(), getHeight(), null);
 		uiManager.Render(g);
 		g.dispose();

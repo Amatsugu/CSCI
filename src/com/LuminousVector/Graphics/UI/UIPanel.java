@@ -12,19 +12,26 @@ public class UIPanel
 {
 	private List<UIComponent> components = new ArrayList<UIComponent>();
 	private Vector2i position, size;
-
+	private boolean filled = true;
 	private Color color;
 
-	public UIPanel(Vector2i position, Vector2i size)
+	public UIPanel(Vector2i position, Vector2i size, int col)
+	{
+		this(position, size, col, true);
+	}
+
+	public UIPanel(Vector2i position, Vector2i size, int col, boolean filled)
 	{
 		this.position = position;
 		this.size = size;
-		color = new Color(0xaaaaaa);
+		this.filled = filled;
+		color = new Color(col);
 	}
 
-	public void addComponent(UIComponent component)
+	public UIPanel addComponent(UIComponent component)
 	{
 		components.add(component);
+		return this;
 	}
 
 	public void Update()
@@ -39,7 +46,10 @@ public class UIPanel
 	{
 		//screen.RenderSprite(position.x, position.y, sprite, false);
 		g.setColor(color);
-		g.fillRect(position.x, position.y, size.x, size.y);
+		if (filled)
+			g.fillRect(position.x, position.y, size.x, size.y);
+		else
+			g.drawRect(position.x, position.y, size.x, size.y);
 		for(UIComponent component: components)
 		{
 			component.setOffset(position);

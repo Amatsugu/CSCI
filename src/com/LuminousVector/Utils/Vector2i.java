@@ -2,6 +2,7 @@ package com.LuminousVector.Utils;
 
 public class Vector2i
 {
+	public static final Vector2i zero = new Vector2i(0,0);
 	public int x, y;
 
 	public Vector2i()
