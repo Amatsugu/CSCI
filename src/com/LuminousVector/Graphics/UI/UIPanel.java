@@ -56,4 +56,13 @@ public class UIPanel
 			component.Render(g);
 		}
 	}
+
+	public boolean Contains(Vector2i point)
+	{
+		if(position.x <= point.x && position.x + size.x >= point.x)
+			if(position.y <= point.y && position.y + size.y >= point.y)
+				return true;
+			else return false;
+		else return false;
+	}
 }
