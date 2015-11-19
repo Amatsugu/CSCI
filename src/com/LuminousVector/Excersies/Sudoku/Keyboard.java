@@ -1,5 +1,7 @@
 package com.LuminousVector.Excersies.Sudoku;
 
+import com.LuminousVector.Utils.Debug;
+
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
@@ -7,6 +9,7 @@ public class Keyboard implements KeyListener
 {
 	private boolean[] keys = new boolean[120];
 	public boolean up, down, left, right;
+	public String lastKey;
 
 	public void Update()
 	{
@@ -27,6 +30,7 @@ public class Keyboard implements KeyListener
 	public void keyPressed(KeyEvent e)
 	{
 		keys[e.getKeyCode()] = true;
+		Debug.log(e.getKeyCode());
 	}
 
 	public void keyReleased(KeyEvent e)

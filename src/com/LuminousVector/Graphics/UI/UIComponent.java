@@ -8,7 +8,7 @@ import com.LuminousVector.Utils.Vector2i;
 public class UIComponent
 {
 	private int backgroundcolor;
-	protected Vector2i position, offset;
+	protected Vector2i position, offset = Vector2i.zero;
 	protected Color color;
 
 

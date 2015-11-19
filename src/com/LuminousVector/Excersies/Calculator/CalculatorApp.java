@@ -1,25 +1,29 @@
-package com.LuminousVector.Excersies.Sudoku;
+package com.LuminousVector.Excersies.Calculator;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
+
+import com.LuminousVector.Excersies.Sudoku.Mouse;
+import com.LuminousVector.Excersies.Sudoku.Keyboard;
 import com.LuminousVector.Graphics.UI.UIManager;
 
-public class SudokuApp extends  Canvas implements Runnable
+public class CalculatorApp extends  Canvas implements Runnable
 {
-	public String title = "Sudoku";
+	public String title = "Calculator";
 	public static int WIDTH = 1280;
 	public static int HEIGHT = 720;
 	public static int SCALE = 1;
+	public static double deltaTime;
 
 	private Thread thread;
 	private boolean isRunning = false;
 
-	private GameBoard board;
 	private Keyboard key;
 	private JFrame frame;
+	private CalculatorUI calc;
 
 	private BufferedImage image = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
 	private int[] pixels = ((DataBufferInt) image.getRaster().getDataBuffer()).getData();
@@ -27,27 +31,22 @@ public class SudokuApp extends  Canvas implements Runnable
 
 	private int[] frameLog = new int[120];
 	private int curIndex = 0;
-	private boolean isDebug = false;
 
-	public SudokuApp()
+	public CalculatorApp()
 	{
 		Dimension size = new Dimension(WIDTH * SCALE, HEIGHT * SCALE);
 		setPreferredSize(size);
 
+		//screen = new Screen(WIDTH, HEIGHT);
 		frame = new JFrame();
 		key = new Keyboard();
 		addKeyListener(key);
 		uiManager = new UIManager();
-		board = new GameBoard(-1, -1, 60, 6);
+		calc = new CalculatorUI();
 
 		Mouse m = new Mouse();
 		addMouseListener(m);
 		addMouseMotionListener(m);
-
-		for(int i = 0; i < pixels.length; i++)
-		{
-			pixels[i] = 0x100010;
-		}
 	}
 
 	public static int GetWidth()
@@ -89,7 +88,7 @@ public class SudokuApp extends  Canvas implements Runnable
 		long lastTime = System.nanoTime();
 		long timer = System.currentTimeMillis();
 		final double ns = 1000000000.0 / 60.0; //Update Rate
-		double deltaTime = 0;
+		deltaTime = 0;
 		int frames = 0;
 		int updates = 0;
 		requestFocus();
@@ -127,8 +126,8 @@ public class SudokuApp extends  Canvas implements Runnable
 	public void Update()
 	{
 		key.Update();
-		board.Update(key);
 		uiManager.Update();
+		calc.Update(key);
 	}
 
 	public void Render()
@@ -140,10 +139,12 @@ public class SudokuApp extends  Canvas implements Runnable
 			return;
 		}
 		Graphics g = bs.getDrawGraphics();
-		//screen.Clear();
-		//board.Render(screen, g);
-
-		g.drawImage(image, 0, 0, getWidth(), getHeight(), null);
+		/*screen.Clear();
+		for(int i = 0; i < pixels.length; i++)
+		{
+			pixels[i] = screen.pixels[i];
+		}*/
+		//g.drawImage(image, 0, 0, getWidth(), getHeight(), null);
 		uiManager.Render(g);
 		g.dispose();
 		bs.show();
@@ -151,7 +152,7 @@ public class SudokuApp extends  Canvas implements Runnable
 
 	public static void main(String[] args)
 	{
-		SudokuApp game = new SudokuApp();
+		CalculatorApp game = new CalculatorApp();
 		game.frame.setResizable(false);
 		game.frame.setTitle(game.title);
 		game.frame.add(game);

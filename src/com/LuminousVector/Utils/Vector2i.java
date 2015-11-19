@@ -10,10 +10,16 @@ public class Vector2i
 		Set(x, y);
 	}
 
+	public Vector2i(int size)
+	{
+		this(size,size);
+	}
+
 	public Vector2i(int x, int y)
 	{
 		Set(x, y);
 	}
+
 
 	public Vector2i(Vector2i vector)
 	{

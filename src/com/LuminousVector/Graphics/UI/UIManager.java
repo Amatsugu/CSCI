@@ -12,9 +12,10 @@ public class UIManager
 
 	}
 
-	public void addPanel(UIPanel panel)
+	public UIManager addPanel(UIPanel panel)
 	{
 		panels.add(panel);
+		return this;
 	}
 
 	public void Update()
