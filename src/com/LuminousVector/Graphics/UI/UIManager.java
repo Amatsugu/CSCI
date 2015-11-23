@@ -5,14 +5,14 @@ import java.util.List;
 
 public class UIManager
 {
-	public List<UIPanel> panels = new ArrayList<UIPanel>();
+	public List<UIComponent> panels = new ArrayList<>();
 
 	public UIManager()
 	{
 
 	}
 
-	public UIManager addPanel(UIPanel panel)
+	public UIManager addComponent(UIComponent panel)
 	{
 		panels.add(panel);
 		return this;
@@ -20,7 +20,7 @@ public class UIManager
 
 	public void Update()
 	{
-		for(UIPanel panel : panels)
+		for(UIComponent panel : panels)
 		{
 			panel.Update();
 		}
@@ -28,7 +28,7 @@ public class UIManager
 
 	public void Render(Graphics g)
 	{
-		for(UIPanel panel : panels)
+		for(UIComponent panel : panels)
 		{
 			panel.Render(g);
 		}

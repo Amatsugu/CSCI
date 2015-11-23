@@ -4,9 +4,7 @@ import com.LuminousVector.Graphics.UI.UIButton;
 import com.LuminousVector.Graphics.UI.UILabel;
 import com.LuminousVector.Graphics.UI.UIManager;
 import com.LuminousVector.Graphics.UI.UIPanel;
-import com.LuminousVector.Utils.Debug;
 import com.LuminousVector.Utils.Vector2i;
-import jdk.nashorn.internal.runtime.logging.DebugLogger;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
@@ -53,7 +51,7 @@ public class GameBoard
 	private void SetupBoard()
 	{
 		UIManager ui = SudokuApp.getUIManager();
-		ui.addPanel(new UIPanel(new Vector2i(5,5), new Vector2i(SudokuApp.GetWidth()-10, 55), 0x110011).addComponent(new UILabel(Vector2i.zero, "Sudoku", 50, 0xff00ff)));
+		ui.addComponent(new UIPanel(new Vector2i(5,5), new Vector2i(SudokuApp.GetWidth()-10, 55), 0x110011).addComponent(new UILabel(Vector2i.zero, "Sudoku", 50, 0xff00ff)));
 		for (int x = 0; x < 9; x++)
 		{
 			//Border
@@ -62,7 +60,7 @@ public class GameBoard
 				Vector2i pos = new Vector2i(this.x + (x*(tileSize+tileSpacing))-1, this.y - tileSpacing);
 				pos.x -= tileSpacing/2;
 				UIPanel yLine = new UIPanel(pos, new Vector2i(1,((tileSize+tileSpacing)*9)+(2*tileSpacing)), 0xffffff);
-				ui.addPanel(yLine);
+				ui.addComponent(yLine);
 			}
 			for (int y = 0; y < 9; y++)
 			{
@@ -72,13 +70,13 @@ public class GameBoard
 					Vector2i pos = new Vector2i(this.x - tileSpacing, this.y + (y*(tileSize+tileSpacing))-1);
 					pos.y -= tileSpacing/2;
 					UIPanel xLine = new UIPanel(pos, new Vector2i(((tileSize+tileSpacing)*9)+(2*tileSpacing), 1), 0xffffff);
-					ui.addPanel(xLine);
+					ui.addComponent(xLine);
 				}
 				//tile
 				Vector2i pos = new Vector2i(this.x + (x*(tileSize+tileSpacing)), this.y + (y*(tileSize+tileSpacing)));
 				String curTile = (tiles[x+y*9] <= 0) ? " " : tiles[x+y*9] + "";
-				UIButton button = new UIButton(pos, new Vector2i(tileSize, tileSize), defaultColor, defaultColor*2, selectedColor,tiles[x*y]+"",true).addComponent(new UILabel(Vector2i.zero.SetX(5),curTile));
-				ui.addPanel(button);
+				UIButton button = new UIButton(pos, new Vector2i(tileSize, tileSize), defaultColor, defaultColor*2, selectedColor,tiles[x*y]+"").addComponent(new UILabel(Vector2i.zero.SetX(5),curTile));
+				ui.addComponent(button);
 				gameTiles.add(button);
 			}
 		}

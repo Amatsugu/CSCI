@@ -12,7 +12,6 @@ public class UIPanel extends UIComponent
 {
 	public boolean filled = true;
 	protected List<UIComponent> components = new ArrayList<UIComponent>();
-	private Vector2i size;
 	private Color color;
 
 	public UIPanel(Vector2i position, Vector2i size, int col)
@@ -52,6 +51,11 @@ public class UIPanel extends UIComponent
 	public void Render(Graphics g)
 	{
 		DrawPanel(g);
+		for(UIComponent component: components)
+		{
+			component.setOffset(getAnchoredPosition());
+			component.Render(g);
+		}
 	}
 
 	protected void DrawPanel(Graphics g)
@@ -63,20 +67,15 @@ public class UIPanel extends UIComponent
 	{
 		g.setColor(col);
 		if (filled)
-			g.fillRect(position.x+offset.x, position.y+offset.y, size.x, size.y);
+			g.fillRect(getAnchoredPosition().x+offset.x, getAnchoredPosition().y+offset.y, size.x, size.y);
 		else
-			g.drawRect(position.x+offset.x, position.y+offset.y, size.x, size.y);
-		for(UIComponent component: components)
-		{
-			component.setOffset(position);
-			component.Render(g);
-		}
+			g.drawRect(getAnchoredPosition().x+offset.x, getAnchoredPosition().y+offset.y, size.x, size.y);
 	}
 
 	public boolean Contains(Vector2i point)
 	{
-		if(position.x + offset.x <= point.x && position.x + offset.x + size.x >= point.x)
-			if(position.y + offset.y <= point.y && position.y + offset.y + size.y >= point.y)
+		if(getAnchoredPosition().x + offset.x <= point.x && getAnchoredPosition().x + offset.x + size.x >= point.x)
+			if(getAnchoredPosition().y + offset.y <= point.y && getAnchoredPosition().y + offset.y + size.y >= point.y)
 				return true;
 			else return false;
 		else return false;

@@ -19,23 +19,16 @@ public class UIButton extends UIPanel
 
 	public UIButton(Vector2i position, Vector2i size,int col1, int col2, int col3, String text)
 	{
-		this(position, size, col1, col2, col3, text, 0xff00ff, false);
+		this(position, size, col1, col2, col3, text, 0xff00ff);
 	}
 
-	public UIButton(Vector2i position, Vector2i size,int col1, int col2, int col3, String text, boolean isToggle)
-	{
-		this(position, size, col1, col2, col3, text, 0xff00ff, isToggle);
-	}
-
-	public UIButton(Vector2i position, Vector2i size,int col1, int col2, int col3, String text, int textCol, boolean isToggle)
+	public UIButton(Vector2i position, Vector2i size,int col1, int col2, int col3, String text, int textCol)
 	{
 		super(position, size, col1);
 		hoverColor = new Color(col2);
 		pressedColor = new Color(col3);
 		textColor = new Color(textCol);
 		filled = true;
-		this.isToggle = isToggle;
-		this.isActive = false;
 		this.text = text;
 	}
 
@@ -58,8 +51,6 @@ public class UIButton extends UIPanel
 			hovered = true;
 			if(Mouse.ButtonClicked(1))
 			{
-				if(!wasClicked && isToggle)
-					isActive = !isActive;
 				wasClicked = true;
 			}else
 				wasClicked = false;
@@ -69,22 +60,13 @@ public class UIButton extends UIPanel
 
 	public void Render(Graphics g)
 	{
-		if(isActive)
-		{
-			if(hovered)
-				DrawPanel(g, hoverColor);
-			else
+		if (hovered)
+			if (wasClicked)
 				DrawPanel(g, pressedColor);
-		}else
-		{
-			if (hovered)
-				if (wasClicked)
-					DrawPanel(g, pressedColor);
-				else
-					DrawPanel(g, hoverColor);
 			else
-				DrawPanel(g);
-		}
+				DrawPanel(g, hoverColor);
+		else
+			DrawPanel(g);
 	}
 
 }
