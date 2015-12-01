@@ -2,6 +2,11 @@ package com.LuminousVector.Utils;
 
 public class MathV
 {
+	public static double Round(double value, int d)
+	{
+		return Math.round(value * d)/d;
+	}
+
 	public static int Clamp(int value, int min, int max)
 	{
 		if(value < min)

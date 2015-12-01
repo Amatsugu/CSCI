@@ -7,7 +7,7 @@ import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
 import com.LuminousVector.Graphics.UI.UIManager;
 
-public class SudokuApp extends  Canvas implements Runnable
+public class SudokuApp extends Canvas implements Runnable
 {
 	public String title = "Sudoku";
 	public static int WIDTH = 1280;
