@@ -29,7 +29,6 @@ public class CalculatorApp extends  Canvas implements Runnable
 	private int[] pixels = ((DataBufferInt) image.getRaster().getDataBuffer()).getData();
 	private static UIManager uiManager;
 
-	private int[] frameLog = new int[120];
 	private int curIndex = 0;
 
 	public CalculatorApp()
@@ -110,7 +109,6 @@ public class CalculatorApp extends  Canvas implements Runnable
 			if(System.currentTimeMillis() - timer > 1000)
 			{
 				timer += 1000;
-				frameLog[curIndex] = frames;
 				curIndex++;
 				if(curIndex > 119)
 					curIndex = 0;
@@ -157,7 +155,7 @@ public class CalculatorApp extends  Canvas implements Runnable
 		game.frame.setTitle(game.title);
 		game.frame.add(game);
 		game.frame.pack();
-		game.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		game.frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		game.frame.setLocationRelativeTo(null);
 		game.frame.setVisible(true);
 
