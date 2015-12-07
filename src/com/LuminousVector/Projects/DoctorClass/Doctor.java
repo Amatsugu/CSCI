@@ -1,6 +1,7 @@
 package com.LuminousVector.Projects.DoctorClass;
 
 import com.LuminousVector.Excersies.Inheritance.Person;
+import com.LuminousVector.Utils.Debug;
 
 public class Doctor extends Person
 {
@@ -25,5 +26,12 @@ public class Doctor extends Person
 	{
 		super(name, age, gender);
 		this.specialty = specialty;
+	}
+
+	public Doctor Print()
+	{
+		super.Print();
+		Debug.log("Specialty: " + specialty);
+		return this;
 	}
 }

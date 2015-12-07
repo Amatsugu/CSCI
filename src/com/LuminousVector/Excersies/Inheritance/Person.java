@@ -1,5 +1,7 @@
 package com.LuminousVector.Excersies.Inheritance;
 
+import com.LuminousVector.Utils.Debug;
+
 public class Person
 {
 	public String name;
@@ -21,5 +23,13 @@ public class Person
 		this.name = name;
 		this.age = age;
 		this.gender = gender;
+	}
+
+	public Person Print()
+	{
+		Debug.log("Name: " + name);
+		Debug.log("Age: " + age);
+		Debug.log("Gender: " + gender);
+		return this;
 	}
 }
