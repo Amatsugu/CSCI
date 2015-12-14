@@ -1,6 +1,7 @@
 package com.LuminousVector.Utils;
 
 import java.io.*;
+import java.util.ArrayList;
 
 public class FileV
 {
@@ -19,11 +20,12 @@ public class FileV
 
 	public FileV(String path) throws IOException
 	{
-		this(path, true, true);
+		this(path, false, false);
 	}
 
 	public FileV OpenReader() throws FileNotFoundException
 	{
+
 		reader = new BufferedReader(new FileReader(path));
 		isReaderOpen = true;
 		return this;
@@ -37,6 +39,14 @@ public class FileV
 		writer = new PrintWriter(new FileWriter(file));
 		isWriterOpen = true;
 		return this;
+	}
+
+	public void WriteAllLines(ArrayList<Integer> lines) throws IOException
+	{
+		for (Integer i : lines)
+		{
+			writer.append(i.toString()+"\n");
+		}
 	}
 
 	public String ReadAllLines() throws IOException
@@ -53,22 +63,51 @@ public class FileV
 		return out;
 	}
 
+	public ArrayList<Integer> ReadAllIntLines() throws IOException
+	{
+		if(!isReaderOpen)
+			throw new FileReaderNotOpenException();
+		ArrayList<Integer> lines = new ArrayList<>();
+		int curInt;
+		String curLn;
+		do
+		{
+			curLn = reader.readLine();
+			try
+			{
+				curInt = Integer.parseInt(curLn);
+			}catch (Exception e)
+			{
+				break;
+			}
+			lines.add(curInt);
+		}while (curLn != null);
+		return  lines;
+	}
+
 	public FileV Close(boolean flush) throws IOException
 	{
-		if(flush)
-			writer.flush();
-		if (isWriterOpen)
-			writer.close();
-		if (isReaderOpen)
-			reader.close();
-		isReaderOpen = false;
-		isWriterOpen = false;
+		CloseWriter(flush);
+		CloseReader();
 		return this;
 	}
+
 
 	public FileV Close() throws IOException
 	{
 		Close(false);
+		return this;
+	}
+
+	public FileV CloseWriter(boolean flush)
+	{
+		if (isWriterOpen)
+		{
+			if (flush)
+				writer.flush();
+			writer.close();
+		}
+		isWriterOpen = false;
 		return this;
 	}
 
