@@ -2,7 +2,7 @@ package com.LuminousVector.CSCI260.Excercies;
 
 public interface IStringLog
 {
-	IStringLog insert(String string);
+	boolean insert(String string);
 
 	boolean contains(String string);
 
