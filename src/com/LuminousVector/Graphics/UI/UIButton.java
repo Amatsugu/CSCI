@@ -1,6 +1,6 @@
 package com.LuminousVector.Graphics.UI;
 
-import com.LuminousVector.Excersies.Sudoku.Mouse;
+import com.LuminousVector.CSCI151.Excersies.Sudoku.Mouse;
 import com.LuminousVector.Utils.Vector2i;
 
 import java.awt.*;
