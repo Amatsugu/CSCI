@@ -79,6 +79,6 @@ public class ContactInfo
 
 	String parseValue(String value)
 	{
-		return (value != "null") ? value + "\n" : "null\n";
+		return (!value.equals("null")) ? value + "\n" : "null\n";
 	}
 }

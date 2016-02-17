@@ -49,11 +49,7 @@ public class UIButton extends UIPanel
 		if(Contains(Mouse.GetPos()))
 		{
 			hovered = true;
-			if(Mouse.ButtonClicked(1))
-			{
-				wasClicked = true;
-			}else
-				wasClicked = false;
+			wasClicked = Mouse.ButtonClicked(1);
 		}else
 			hovered = false;
 	}

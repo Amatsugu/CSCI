@@ -32,9 +32,7 @@ public class Mouse implements MouseListener, MouseMotionListener
 
 	public static boolean ButtonClicked(int button)
 	{
-		if (mouseB == button)
-			return mouseClicked;
-		else return false;
+		return mouseB == button && mouseClicked;
 	}
 
 	public void mouseDragged(MouseEvent e)
