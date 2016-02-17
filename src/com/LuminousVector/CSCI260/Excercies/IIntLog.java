@@ -13,4 +13,10 @@ public interface IIntLog
 	String getName();
 
 	IIntLog clear();
+
+	int sum();
+
+	float average();
+
+	int max();
 }
