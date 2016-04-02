@@ -2,7 +2,7 @@ package com.LuminousVector.Utils;
 
 public class MathV
 {
-	public static double Round(double value, int d)
+	public static double Round(double value, double d)
 	{
 		return Math.round(value * d)/d;
 	}

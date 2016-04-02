@@ -1,6 +1,6 @@
 package com.LuminousVector.CSCI151.Excersies.ContactStore;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 import java.io.*;
 
@@ -16,7 +16,7 @@ public class ContactInfoApp
 			contactFile = new BufferedReader(new FileReader(path));
 		}catch(Exception e)
 		{
-			Debug.log("Failed to load file... \n" + e.getMessage());
+			Console.log("Failed to load file... \n" + e.getMessage());
 		}
 		String data = "";
 		String line = null;
@@ -35,7 +35,7 @@ public class ContactInfoApp
 		try
 		{
 			ContactInfo contacts= new ContactInfo(data);
-			Debug.log("Output:\n" + contacts.getData());
+			com.LuminousVector.Utils.Console.log("Output:\n" + contacts.getData());
 		}catch (InvalidContactException contactException)
 		{
 			contactException.printStackTrace();

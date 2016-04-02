@@ -1,6 +1,6 @@
 package com.LuminousVector.Utils;
 
-public class Debug
+public class Console
 {
 	public static void lognr(Object o)
 	{

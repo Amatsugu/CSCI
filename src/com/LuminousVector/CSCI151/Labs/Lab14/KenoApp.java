@@ -4,23 +4,23 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 public class KenoApp
 {
 	public static void main(String[] args)
 	{
 		Scanner in = new Scanner(System.in);
-		Debug.log("Welcome to Keno");
-		Debug.lognr("How many spots would you like? (1-10): ");
+		Console.log("Welcome to Keno");
+		Console.lognr("How many spots would you like? (1-10): ");
 		int spots = in.nextInt();
-		Debug.lognr("How many games would you like to play? (1-20): ");
+		Console.lognr("How many games would you like to play? (1-20): ");
 		int plays = in.nextInt();
-		Debug.lognr("How much will you bet? (1-3): ");
+		Console.lognr("How much will you bet? (1-3): ");
 		int bet = in.nextInt();
 		Keno kenoSlip = new Keno(spots, bet, plays);
-		Debug.log("Enter your numbers seperated by commas (1-80):");
-		Debug.log("Enter QUIK PIK to generate random numbers");
+		Console.log("Enter your numbers seperated by commas (1-80):");
+		Console.log("Enter QUIK PIK to generate random numbers");
 		String numbers = in.next();
 		if(numbers.toUpperCase().equals("QUIKPIK"))
 			kenoSlip.SetNumbers();
@@ -38,7 +38,7 @@ public class KenoApp
 					n = Integer.parseInt(s);
 				}catch(NumberFormatException e)
 				{
-					Debug.log("Value \'"+ s +"\' failed to pharse, ignoring...");
+					Console.log("Value \'"+ s +"\' failed to pharse, ignoring...");
 				}
 				
 				try
@@ -47,12 +47,12 @@ public class KenoApp
 					pos++;
 				}catch(ArrayIndexOutOfBoundsException e)
 				{
-					Debug.log("Extra number \'"+ n +"\', ignoring...");
+					Console.log("Extra number \'"+ n +"\', ignoring...");
 				}
 			}
 			if(pos < plays)
 			{
-				Debug.log("Not enough numbers provided, generating...");
+				Console.log("Not enough numbers provided, generating...");
 				for(int i = pos; i < spots; i++)
 				{
 					intNums[i] = r.nextInt(80)+1;
@@ -61,15 +61,15 @@ public class KenoApp
 			}
 			kenoSlip.SetNumbers(intNums);
 		}
-		Debug.log("Your numbers are: " + kenoSlip.getNumbers());
-		Debug.log("Making " + plays + " plays...");
+		Console.log("Your numbers are: " + kenoSlip.getNumbers());
+		Console.log("Making " + plays + " plays...");
 		int lastPlay = 0;
 		while(lastPlay != -1)
 		{
 			lastPlay = kenoSlip.MakePlay();
 		}
-		Debug.log("The plays are: " + kenoSlip.getPlays());
-		Debug.log("Your winnings are: $" + kenoSlip.CalculateWinnings());
+		Console.log("The plays are: " + kenoSlip.getPlays());
+		Console.log("Your winnings are: $" + kenoSlip.CalculateWinnings());
 		in.close();
 	}
 }

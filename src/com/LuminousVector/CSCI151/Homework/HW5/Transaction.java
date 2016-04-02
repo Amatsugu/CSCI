@@ -2,7 +2,7 @@ package com.LuminousVector.CSCI151.Homework.HW5;
 
 import java.util.ArrayList;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 public class Transaction
 {
@@ -22,7 +22,7 @@ public class Transaction
 	public void AddItem(Item item)
 	{
 		items.add(item);
-		Debug.lognr(GetLine(item));
+		Console.lognr(GetLine(item));
 	}
 
 	private String GetLine(Item i)

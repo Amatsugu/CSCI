@@ -1,6 +1,6 @@
 package com.LuminousVector.CSCI151.Excersies.Tree;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 public class RightTriangle extends Triangle
 {
@@ -17,13 +17,13 @@ public class RightTriangle extends Triangle
 	
 	void drawTop()
 	{
-		Debug.log("");
+		Console.log("");
 		for(int i = 0; i < base; i++)
 		{
 			skipSpaces(getOffset());
-			Debug.lognr('*');
+			Console.lognr('*');
 			skipSpaces(i);
-			Debug.log('*');
+			Console.log('*');
 		}
 	}
 	
@@ -31,8 +31,8 @@ public class RightTriangle extends Triangle
 	{
 		skipSpaces(getOffset());
 		for(int i = 0; i < base; i++)
-			Debug.lognr("*");
-		Debug.log("*");
+			Console.lognr("*");
+		Console.log("*");
 	}
 	
 	public float getPerimeter()

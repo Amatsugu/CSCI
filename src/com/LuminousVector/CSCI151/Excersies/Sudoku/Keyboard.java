@@ -1,6 +1,6 @@
 package com.LuminousVector.CSCI151.Excersies.Sudoku;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -27,7 +27,7 @@ public class Keyboard implements KeyListener
 	public void keyPressed(KeyEvent e)
 	{
 		keys[e.getKeyCode()] = true;
-		Debug.log(e.getKeyCode());
+		Console.log(e.getKeyCode());
 	}
 
 	public void keyReleased(KeyEvent e)

@@ -1,6 +1,6 @@
 package com.LuminousVector.CSCI151.Excersies.Inheritance;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 public class Student extends Person
 {
@@ -14,8 +14,8 @@ public class Student extends Person
 	
 	public void writeOutput()
 	{
-		Debug.log("Name: " + name);
-		Debug.log("ID: " + studentID);
+		Console.log("Name: " + name);
+		Console.log("ID: " + studentID);
 	}
 
 	public void reset(String name, String studentID)

@@ -1,6 +1,6 @@
 package com.LuminousVector.CSCI151.Excersies.Inheritance;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 public class Person
 {
@@ -27,9 +27,9 @@ public class Person
 
 	public Person Print()
 	{
-		Debug.log("Name: " + name);
-		Debug.log("Age: " + age);
-		Debug.log("Gender: " + gender);
+		Console.log("Name: " + name);
+		Console.log("Age: " + age);
+		Console.log("Gender: " + gender);
 		return this;
 	}
 }

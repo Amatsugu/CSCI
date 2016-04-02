@@ -1,6 +1,6 @@
 package com.LuminousVector.CSCI151.Excersies.Recursion;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 public class RecursionApp
 {
@@ -13,10 +13,10 @@ public class RecursionApp
 	public static void countdown(int num)
 	{
 		if (num == 0)
-			Debug.log("GOOO!");
+			Console.log("GOOO!");
 		else
 		{
-			Debug.log(num);
+			Console.log(num);
 			countdown(num - 1);
 		}
 	}

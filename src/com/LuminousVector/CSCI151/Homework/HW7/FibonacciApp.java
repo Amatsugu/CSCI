@@ -1,6 +1,6 @@
 package com.LuminousVector.CSCI151.Homework.HW7;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 import java.util.Scanner;
 
@@ -11,9 +11,9 @@ public class FibonacciApp
 		Scanner in = new Scanner(System.in);
 		while (true)
 		{
-			Debug.lognr("Enter the fibonacci number to find:");
+			Console.lognr("Enter the fibonacci number to find:");
 			int index = Math.abs(in.nextInt());
-			Debug.log("The #" + index + " Fibonacci number is: " + Fibonacci.getNumber(index));
+			Console.log("The #" + index + " Fibonacci number is: " + Fibonacci.getNumber(index));
 		}
 	}
 }

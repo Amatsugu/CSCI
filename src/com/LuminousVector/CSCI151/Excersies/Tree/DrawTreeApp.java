@@ -1,6 +1,6 @@
 package com.LuminousVector.CSCI151.Excersies.Tree;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 public class DrawTreeApp
 {
@@ -8,12 +8,12 @@ public class DrawTreeApp
 	{
 		Square square = new Square(2, 10);
 		square.drawHere();
-		Debug.log("Area:" + square.getArea());
-		Debug.log("Perimeter:" + square.getPerimeter());
-		Debug.log("-----------------------------------------------------");
+		Console.log("Area:" + square.getArea());
+		Console.log("Perimeter:" + square.getPerimeter());
+		Console.log("-----------------------------------------------------");
 		RightTriangle tri= new RightTriangle(2, 10);
 		tri.drawHere();
-		Debug.log("Area:" + tri.getArea());
-		Debug.log("Perimeter:" + tri.getPerimeter());
+		Console.log("Area:" + tri.getArea());
+		Console.log("Perimeter:" + tri.getPerimeter());
 	}
 }

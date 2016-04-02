@@ -2,7 +2,7 @@ package com.LuminousVector.CSCI151.Exmaple;
 
 import java.util.Scanner;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 public class AverageCalculatorApp
 {
@@ -12,7 +12,7 @@ public class AverageCalculatorApp
 		Scanner in = new Scanner(System.in);
 		do
 		{
-			Debug.log("Enter Grades:");
+			Console.log("Enter Grades:");
 			for(int i = 0; i < 10; i++)
 			{
 				calc.SetGrade(in.nextFloat());

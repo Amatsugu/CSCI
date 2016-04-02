@@ -1,6 +1,6 @@
 package com.LuminousVector.CSCI151.Excersies.Inheritance;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 public class UnderGraduate extends Student
 {
@@ -28,8 +28,8 @@ public class UnderGraduate extends Student
 	
 	public void writeOutput()
 	{
-		Debug.log("Name: " + name);
-		Debug.log("ID: " + studentID);
-		Debug.log("Level " + level);
+		Console.log("Name: " + name);
+		Console.log("ID: " + studentID);
+		Console.log("Level " + level);
 	}
 }

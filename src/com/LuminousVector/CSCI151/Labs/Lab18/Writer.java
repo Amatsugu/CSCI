@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 public class Writer
 {
@@ -18,13 +18,13 @@ public class Writer
 			writer = new PrintWriter(new FileOutputStream(path));
 		} catch (FileNotFoundException e)
 		{
-			Debug.log("File not found, creating...");
+			Console.log("File not found, creating...");
 			try
 			{
 				writer = new PrintWriter(path, "UTF-8");
 			} catch (FileNotFoundException | UnsupportedEncodingException e1)
 			{
-				Debug.log("Unable to Create File... " + e1.getMessage());
+				Console.log("Unable to Create File... " + e1.getMessage());
 				e1.printStackTrace();
 				writer.close();
 			}

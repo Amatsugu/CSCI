@@ -1,12 +1,12 @@
 package com.LuminousVector.Sandbox;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 public class Sandbox
 {
 	public static void main(String[] args)
 	{
-		Debug.log(TriPower(3));
+		Console.log(TriPower(3));
 	}
 	static int TriPower(int n)
 	{
@@ -21,11 +21,11 @@ public class Sandbox
 
 	static int factorial(int n)
 	{
-		Debug.log(indent + "Sandbox: " + n);
+		Console.log(indent + "Sandbox: " + n);
 		indent += "\t";
 		int val = (n == 0) ? 1 : n * factorial(n-1);
 		indent = indent.substring(1);
-		Debug.log(indent + "Return " + val);
+		Console.log(indent + "Return " + val);
 		return val;
 	}
 }

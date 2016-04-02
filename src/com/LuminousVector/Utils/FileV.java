@@ -41,11 +41,19 @@ public class FileV
 		return this;
 	}
 
-	public void WriteAllLines(ArrayList<Integer> lines) throws IOException
+	public void WriteAllIntLines(ArrayList<Integer> lines) throws IOException
 	{
 		for (Integer i : lines)
 		{
 			writer.append(i.toString()+"\n");
+		}
+	}
+
+	public void WriteAllLines(String[] lines) throws IOException
+	{
+		for (String l : lines)
+		{
+			writer.append(l+"\n");
 		}
 	}
 

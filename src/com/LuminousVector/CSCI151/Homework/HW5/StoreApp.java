@@ -3,7 +3,7 @@ package com.LuminousVector.CSCI151.Homework.HW5;
 import java.util.Scanner;
 import java.io.*;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 public class StoreApp
 {
@@ -13,17 +13,17 @@ public class StoreApp
 		Scanner in = new Scanner(System.in);
 		while (t.IsActive())
 		{
-			Debug.log("Enter '-END-' to finish.");
-			Debug.lognr("Enter item name: ");
+			Console.log("Enter '-END-' to finish.");
+			Console.lognr("Enter item name: ");
 			String itemName = in.next();
 			if (itemName.equalsIgnoreCase("-END-"))
 			{
 				t.End();
 				break;
 			}
-			Debug.lognr("Enter item price: ");
+			Console.lognr("Enter item price: ");
 			float itemPrice = in.nextFloat();
-			Debug.lognr("Enter item count: ");
+			Console.lognr("Enter item count: ");
 			int itemCount = in.nextInt();
 			t.AddItem(itemName, itemPrice, itemCount);
 		}
@@ -42,8 +42,8 @@ public class StoreApp
 			fw.close();
 		} catch (Exception e)
 		{
-			Debug.log(e.getMessage());
+			Console.log(e.getMessage());
 		}
-		Debug.log(log);
+		Console.log(log);
 	}
 }

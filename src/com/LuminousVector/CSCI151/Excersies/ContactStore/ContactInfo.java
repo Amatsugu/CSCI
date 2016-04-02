@@ -1,6 +1,6 @@
 package com.LuminousVector.CSCI151.Excersies.ContactStore;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 public class ContactInfo
 {
@@ -10,7 +10,7 @@ public class ContactInfo
 	public String homeAdress, city, state;
 	public ContactInfo(String data) throws InvalidContactException
 	{
-		Debug.log("Input:\n" + data);
+		Console.log("Input:\n" + data);
 		pharseData(data);
 	}
 

@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 public class Reader
 {
@@ -16,7 +16,7 @@ public class Reader
 			reader = new BufferedReader(new FileReader(path));
 		}catch(Exception e)
 		{
-			Debug.log("Failed to load file... \n" + e.getMessage());
+			Console.log("Failed to load file... \n" + e.getMessage());
 		}
 	}
 	
@@ -33,7 +33,7 @@ public class Reader
 				e.printStackTrace();
 			}
 			if(line != null)
-				Debug.log(line);
+				Console.log(line);
 		}while(line != null);
 	}
 	

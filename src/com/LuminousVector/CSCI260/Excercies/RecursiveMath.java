@@ -1,7 +1,7 @@
 package com.LuminousVector.CSCI260.Excercies;
 
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 import java.util.Scanner;
 
@@ -11,11 +11,11 @@ public class RecursiveMath
 	{
 		//Assumes n is non-negative
 		Scanner in = new Scanner(System.in);
-		Debug.lognr("Enter a non-negative integer: ");
+		Console.lognr("Enter a non-negative integer: ");
 		int n = in.nextInt();
-		Debug.log(String.format("Sum(%d): %d", n, Sum(n)));
-		Debug.log(String.format("BiPower(%d): %d", n, BiPower(n)));
-		Debug.log(String.format("TimesFive(%d): %d", n, TimesFive(n)));
+		Console.log(String.format("Sum(%d): %d", n, Sum(n)));
+		Console.log(String.format("BiPower(%d): %d", n, BiPower(n)));
+		Console.log(String.format("TimesFive(%d): %d", n, TimesFive(n)));
 	}
 
 	static int Sum(int n)

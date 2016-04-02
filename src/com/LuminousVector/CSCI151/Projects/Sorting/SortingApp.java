@@ -1,6 +1,6 @@
 package com.LuminousVector.CSCI151.Projects.Sorting;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 import java.util.ArrayList;
 
@@ -14,16 +14,16 @@ public class SortingApp
 		strings.add("BDSFBGdrthgfd");
 		strings.add("asdfdsf2345rt");
 		strings.add("bfFDSDFSDFesd");
-		Debug.log("UnSorted:");
+		Console.log("UnSorted:");
 		for (String s: strings)
 		{
-			Debug.log(s);
+			Console.log(s);
 		}
 		strings = ArraySorter.SortArray(strings);
-		Debug.log("Sorted:");
+		Console.log("Sorted:");
 		for (String s: strings)
 		{
-			Debug.log(s);
+			Console.log(s);
 		}
 	}
 }

@@ -1,6 +1,6 @@
 package com.LuminousVector.CSCI151.Exmaple;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 public class AverageCalculator
 {
@@ -46,9 +46,9 @@ public class AverageCalculator
 			if(score > average)
 				totalAboveAverage++;
 		}
-		Debug.log("Average:" + average);
-		Debug.log("Min:" + min + " Max: " + max);
-		Debug.log(totalAboveAverage + " scores above the average.");
+		Console.log("Average:" + average);
+		Console.log("Min:" + min + " Max: " + max);
+		Console.log(totalAboveAverage + " scores above the average.");
 		
 		return true;
 	}

@@ -1,6 +1,6 @@
 package com.LuminousVector.CSCI151.Homework.HW7;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 
 public class Fibonacci
 {
@@ -18,7 +18,7 @@ public class Fibonacci
 		_lastSequence = new long[index];
 		_lastSequence[0] = 0;
 		_lastSequence[1] = 1;
-		Debug.log("Calculating...");
+		Console.log("Calculating...");
 		iterate(2);
 		return _lastSequence[index-1];
 	}

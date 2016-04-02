@@ -1,6 +1,6 @@
 package com.LuminousVector.CSCI151.Homework.HW8;
 
-import com.LuminousVector.Utils.Debug;
+import com.LuminousVector.Utils.Console;
 import com.LuminousVector.Utils.FileV;
 
 import java.io.IOException;
@@ -14,28 +14,28 @@ public class SentenceReaderApp
 		try
 		{
 			String path = "paragraph.txt";
-			Debug.log("Opening File... " + path);
+			Console.log("Opening File... " + path);
 			file = new FileV(path, false, false).OpenReader();
 			String lines;
-			Debug.log("Reading File...");
+			Console.log("Reading File...");
 			lines = file.ReadAllLines();
-			//Debug.log(lines);
+			//Console.log(lines);
 			file.Close(false);
-			Debug.log("Reading sentences and words...");
+			Console.log("Reading sentences and words...");
 			SentenceReader paragraph = new SentenceReader(lines);
-			Debug.log("Success!");
+			Console.log("Success!");
 			Scanner in = new Scanner(System.in);
 			int p,w;
-			Debug.lognr("Enter a sentence Index: ");
+			Console.lognr("Enter a sentence Index: ");
 			p = in.nextInt();
-			Debug.lognr("Enter a word Index: ");
+			Console.lognr("Enter a word Index: ");
 			w = in.nextInt();
 			try
 			{
-				Debug.log("The word at ("+p+","+w+") is: " + paragraph.GetWord(p,w));
+				Console.log("The word at ("+p+","+w+") is: " + paragraph.GetWord(p,w));
 			}catch (Exception e)
 			{
-				Debug.log(e.getMessage());
+				Console.log(e.getMessage());
 			}
 
 		}catch (IOException e)
