@@ -69,7 +69,7 @@ public class Vector2f
 		if(!(object instanceof Vector2i))
 			return false;
 		Vector2i vec = (Vector2i) object;
-		if(vec.GetX() == this.GetX() && vec.GetY() == this.GetY())
+		if(vec.x == this.GetX() && vec.y == this.GetY())
 			return true;
 		return false;
 	}

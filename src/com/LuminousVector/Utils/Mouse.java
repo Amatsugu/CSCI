@@ -1,4 +1,4 @@
-package com.LuminousVector.CSCI151.Excersies.Sudoku;
+package com.LuminousVector.Utils;
 
 import com.LuminousVector.Utils.Vector2i;
 

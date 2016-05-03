@@ -26,16 +26,6 @@ public class Vector2i
 		Set(vector.x, vector.y);
 	}
 
-	public int GetX()
-	{
-		return x;
-	}
-
-	public int GetY()
-	{
-		return y;
-	}
-
 	public Vector2i Add(Vector2i vector)
 	{
 		this.x += vector.x;
@@ -71,8 +61,8 @@ public class Vector2i
 
 	public static double Distance(Vector2i a, Vector2i b)
 	{
-		int dx = a.GetX() - b.GetX();
-		int dy = a.GetY() - b.GetY();
+		int dx = a.x - b.x;
+		int dy = a.y - b.y;
 		return Math.sqrt((dx * dx) + (dy * dy));
 	}
 
@@ -81,7 +71,7 @@ public class Vector2i
 		if(!(object instanceof Vector2i))
 			return false;
 		Vector2i vec = (Vector2i) object;
-		if(vec.GetX() == this.GetX() && vec.GetY() == this.GetY())
+		if(vec.x == this.x && vec.x == this.x)
 			return true;
 		return false;
 	}

@@ -1,12 +1,27 @@
 package com.LuminousVector.Sandbox;
 
+import com.LuminousVector.CSCI260.Excercies.ArrayQueue;
 import com.LuminousVector.Utils.Console;
 
 public class Sandbox
 {
 	public static void main(String[] args)
 	{
-		Console.log(TriPower(3));
+		ArrayQueue<Integer> myQueue = new ArrayQueue<>();
+		ArrayQueue<Integer> backupQueue = new ArrayQueue<>();
+		Integer cur = null;
+		try
+		{
+			while (!myQueue.isEmpty())
+			{
+				Console.log(cur = myQueue.dequeue());
+				backupQueue.enqueue(cur);
+			}
+			myQueue = backupQueue;
+		} catch (Exception e)
+		{
+			e.printStackTrace();
+		}
 	}
 	static int TriPower(int n)
 	{

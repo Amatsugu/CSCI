@@ -1,4 +1,4 @@
-package com.LuminousVector.CSCI151.Excersies.Sudoku;
+package com.LuminousVector.Utils;
 
 import com.LuminousVector.Utils.Console;
 
@@ -7,8 +7,9 @@ import java.awt.event.KeyListener;
 
 public class Keyboard implements KeyListener
 {
-	private boolean[] keys = new boolean[120];
+	private boolean[] keys = new boolean[256];
 	public boolean up, down, left, right;
+	public KeyEvent curKey;
 	public String lastKey;
 
 	public void Update()
@@ -27,17 +28,18 @@ public class Keyboard implements KeyListener
 	public void keyPressed(KeyEvent e)
 	{
 		keys[e.getKeyCode()] = true;
-		Console.log(e.getKeyCode());
+		//Console.log(e.getKeyCode());
 	}
 
 	public void keyReleased(KeyEvent e)
 	{
 		keys[e.getKeyCode()] = false;
+		curKey = null;
 	}
 
 	public void keyTyped(KeyEvent e)
 	{
-
+		curKey = e;
 	}
 
 }

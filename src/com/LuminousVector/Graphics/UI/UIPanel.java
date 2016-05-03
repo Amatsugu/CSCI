@@ -12,7 +12,6 @@ public class UIPanel extends UIComponent
 {
 	public boolean filled = true;
 	protected List<UIComponent> components = new ArrayList<UIComponent>();
-	private Color color;
 
 	public UIPanel(Vector2i position, Vector2i size, int col)
 	{
@@ -21,11 +20,10 @@ public class UIPanel extends UIComponent
 
 	public UIPanel(Vector2i position, Vector2i size, int col, boolean filled)
 	{
-		super(position);
+		super(position, col);
 		this.position = position;
 		this.size = size;
 		this.filled = filled;
-		color = new Color(col);
 	}
 
 	public UIPanel addComponent(UIComponent component)
@@ -36,7 +34,7 @@ public class UIPanel extends UIComponent
 
 	public UIPanel SetColor(int col)
 	{
-		color = new Color(col);
+		backgroundColor = new Color(col);
 		return this;
 	}
 
@@ -60,7 +58,7 @@ public class UIPanel extends UIComponent
 
 	protected void DrawPanel(Graphics g)
 	{
-		DrawPanel(g, color);
+		DrawPanel(g, backgroundColor);
 	}
 
 	protected void DrawPanel(Graphics g,Color col)

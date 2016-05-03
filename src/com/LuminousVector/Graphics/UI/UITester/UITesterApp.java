@@ -1,4 +1,4 @@
-package com.LuminousVector.CSCI151.Excersies.Calculator;
+package com.LuminousVector.Graphics.UI.UITester;
 
 import javax.swing.*;
 import java.awt.*;
@@ -6,13 +6,13 @@ import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
 
-import com.LuminousVector.CSCI151.Excersies.Sudoku.Mouse;
-import com.LuminousVector.CSCI151.Excersies.Sudoku.Keyboard;
+import com.LuminousVector.Utils.Mouse;
+import com.LuminousVector.Utils.Keyboard;
 import com.LuminousVector.Graphics.UI.UIManager;
 
-public class CalculatorApp extends  Canvas implements Runnable
+public class UITesterApp extends  Canvas implements Runnable
 {
-	public String title = "Calculator";
+	public String title = "UI Test App";
 	public static int WIDTH = 1280;
 	public static int HEIGHT = 720;
 	public static int SCALE = 1;
@@ -21,9 +21,9 @@ public class CalculatorApp extends  Canvas implements Runnable
 	private Thread thread;
 	private boolean isRunning = false;
 
-	private Keyboard key;
+	private static Keyboard key;
 	private JFrame frame;
-	private CalculatorUI calc;
+	private UITester calc;
 
 	private BufferedImage image = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
 	private int[] pixels = ((DataBufferInt) image.getRaster().getDataBuffer()).getData();
@@ -31,7 +31,7 @@ public class CalculatorApp extends  Canvas implements Runnable
 
 	private int curIndex = 0;
 
-	public CalculatorApp()
+	public UITesterApp()
 	{
 		Dimension size = new Dimension(WIDTH * SCALE, HEIGHT * SCALE);
 		setPreferredSize(size);
@@ -41,7 +41,7 @@ public class CalculatorApp extends  Canvas implements Runnable
 		key = new Keyboard();
 		addKeyListener(key);
 		uiManager = new UIManager();
-		calc = new CalculatorUI();
+		calc = new UITester();
 
 		Mouse m = new Mouse();
 		addMouseListener(m);
@@ -61,6 +61,11 @@ public class CalculatorApp extends  Canvas implements Runnable
 	public static UIManager getUIManager()
 	{
 		return uiManager;
+	}
+
+	public static Keyboard getKeyBoard()
+	{
+		return key;
 	}
 
 	public synchronized void start()
@@ -137,6 +142,7 @@ public class CalculatorApp extends  Canvas implements Runnable
 			return;
 		}
 		Graphics g = bs.getDrawGraphics();
+		((Graphics2D)g).setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
 		/*screen.Clear();
 		for(int i = 0; i < pixels.length; i++)
 		{
@@ -150,7 +156,7 @@ public class CalculatorApp extends  Canvas implements Runnable
 
 	public static void main(String[] args)
 	{
-		CalculatorApp game = new CalculatorApp();
+		UITesterApp game = new UITesterApp();
 		game.frame.setResizable(false);
 		game.frame.setTitle(game.title);
 		game.frame.add(game);

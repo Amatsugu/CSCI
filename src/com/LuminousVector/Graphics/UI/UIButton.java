@@ -1,28 +1,31 @@
 package com.LuminousVector.Graphics.UI;
 
-import com.LuminousVector.CSCI151.Excersies.Sudoku.Mouse;
+import com.LuminousVector.Utils.Mouse;
 import com.LuminousVector.Utils.Vector2i;
 
 import java.awt.*;
+import java.awt.geom.Rectangle2D;
 
 public class UIButton extends UIPanel
 {
 	private Color textColor;
 	private Color hoverColor;
 	private Color pressedColor;
-	private String text;
+	protected String text;
 	private boolean isActive;
 	public boolean isToggle = false;
 	public boolean wasClicked;
 	public boolean hovered;
+	private Font font;
+	private int fontSize;
 
 
 	public UIButton(Vector2i position, Vector2i size,int col1, int col2, int col3, String text)
 	{
-		this(position, size, col1, col2, col3, text, 0xff00ff);
+		this(position, size, col1, col2, col3, text, 0xff00ff, size.y/2);
 	}
 
-	public UIButton(Vector2i position, Vector2i size,int col1, int col2, int col3, String text, int textCol)
+	public UIButton(Vector2i position, Vector2i size,int col1, int col2, int col3, String text, int textCol, int fontSize)
 	{
 		super(position, size, col1);
 		hoverColor = new Color(col2);
@@ -30,6 +33,8 @@ public class UIButton extends UIPanel
 		textColor = new Color(textCol);
 		filled = true;
 		this.text = text;
+		this.fontSize = fontSize;
+		font = new Font("Oxygen Mono", Font.TRUETYPE_FONT, fontSize);
 	}
 
 	public UIButton addComponent(UIComponent component)
@@ -63,6 +68,10 @@ public class UIButton extends UIPanel
 				DrawPanel(g, hoverColor);
 		else
 			DrawPanel(g);
+		g.setFont(font);
+		g.setColor(textColor);
+		Rectangle2D rect = font.getStringBounds(text, ((Graphics2D)g).getFontRenderContext());
+		g.drawString(text, getAnchoredPosition().x +offset.x + (int)(size.x/2f - rect.getWidth()/2f), getAnchoredPosition().y+offset.y + (int)(size.y/2f + rect.getHeight()/2f));
 	}
 
 }

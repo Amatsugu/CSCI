@@ -45,6 +45,6 @@ public class UILabel extends UIComponent
 	{
 		g.setFont(font);
 		g.setColor(color);
-		g.drawString(text, position.x+offset.x, position.y+offset.y);
+		g.drawString(text, getAnchoredPosition().x+offset.x, getAnchoredPosition().y+offset.y);
 	}
 }

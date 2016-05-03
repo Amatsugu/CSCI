@@ -6,6 +6,8 @@ import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
 import com.LuminousVector.Graphics.UI.UIManager;
+import com.LuminousVector.Utils.Keyboard;
+import com.LuminousVector.Utils.Mouse;
 
 public class SudokuApp extends Canvas implements Runnable
 {
