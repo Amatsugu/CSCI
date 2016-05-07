@@ -1,10 +1,8 @@
 package com.LuminousVector.CSCI260.Excercies;
 
-import com.LuminousVector.CSCI260.Projects.Project1.LinkedNode;
-
 public class BinarySearchTree<T extends Comparable<T>> implements IBinarySearchTree<T>
 {
-	protected BTSNode<T> root;
+	protected BSTNode<T> root;
 
 	private boolean found;
 
@@ -13,7 +11,7 @@ public class BinarySearchTree<T extends Comparable<T>> implements IBinarySearchT
 	protected LinkedQueue<T> PostOrderQueue;
 
 
-	public BTSNode<T> getRoot()
+	public BSTNode<T> getRoot()
 	{
 		return root;
 	}
@@ -39,7 +37,7 @@ public class BinarySearchTree<T extends Comparable<T>> implements IBinarySearchT
 		return this;
 	}
 
-	public BinarySearchTree<T> remove(T element, BTSNode<T> node)
+	public BinarySearchTree<T> remove(T element, BSTNode<T> node)
 	{
 		root = recRemove(element, node);
 		return this;
@@ -86,7 +84,7 @@ public class BinarySearchTree<T extends Comparable<T>> implements IBinarySearchT
 		}
 	}
 
-	private void inOrder(BTSNode<T> node)
+	private void inOrder(BSTNode<T> node)
 	{
 		if(node != null)
 		{
@@ -96,19 +94,19 @@ public class BinarySearchTree<T extends Comparable<T>> implements IBinarySearchT
 		}
 	}
 
-	private void preOrder(BTSNode<T> node)
+	private void preOrder(BSTNode<T> node)
 	{
 		if(node == null)
 			return;
 	}
 
-	private void postOrder(BTSNode<T> node)
+	private void postOrder(BSTNode<T> node)
 	{
 		if(node == null)
 			return;
 	}
 
-	private BTSNode<T> recRemove(T element, BTSNode<T> node)
+	private BSTNode<T> recRemove(T element, BSTNode<T> node)
 	{
 		if(node == null)
 			found = false;
@@ -124,7 +122,7 @@ public class BinarySearchTree<T extends Comparable<T>> implements IBinarySearchT
 		return node;
 	}
 
-	private BTSNode<T> removeNode(BTSNode<T> node)
+	private BSTNode<T> removeNode(BSTNode<T> node)
 	{
 		T data;
 		if(node.left == null)
@@ -140,17 +138,17 @@ public class BinarySearchTree<T extends Comparable<T>> implements IBinarySearchT
 		}
 	}
 
-	private T getPredecessor(BTSNode<T> node)
+	private T getPredecessor(BSTNode<T> node)
 	{
 		while (node.right != null)
 			node = node.right;
 		return node.info;
 	}
 
-	private BTSNode<T> recAdd(T element, BTSNode<T> node)
+	private BSTNode<T> recAdd(T element, BSTNode<T> node)
 	{
 		if(node == null)
-			node = new BTSNode<>(element);
+			node = new BSTNode<>(element);
 		else if(element.compareTo(node.info) <= 0)
 			node.left = recAdd(element, node.left);
 		else
@@ -158,7 +156,7 @@ public class BinarySearchTree<T extends Comparable<T>> implements IBinarySearchT
 		return node;
 	}
 
-	private T recGet(T element, BTSNode<T> node)
+	private T recGet(T element, BSTNode<T> node)
 	{
 		if(node == null)
 			return null;
@@ -170,7 +168,7 @@ public class BinarySearchTree<T extends Comparable<T>> implements IBinarySearchT
 			return node.info;
 	}
 
-	private boolean recContains(T element, BTSNode<T> node)
+	private boolean recContains(T element, BSTNode<T> node)
 	{
 		if(node == null)
 			return false;
@@ -182,12 +180,12 @@ public class BinarySearchTree<T extends Comparable<T>> implements IBinarySearchT
 			return true;
 	}
 
-	private int iterSize(BTSNode<T> node)
+	private int iterSize(BSTNode<T> node)
 	{
-		LinkedStack<BTSNode<T>> trail = new LinkedStack<>();
+		LinkedStack<BSTNode<T>> trail = new LinkedStack<>();
 		trail.push(node);
 		int count = 0;
-		BTSNode<T> curNode = root;
+		BSTNode<T> curNode = root;
 		while (!trail.isEmpty())
 		{
 			curNode = trail.top();
@@ -201,7 +199,7 @@ public class BinarySearchTree<T extends Comparable<T>> implements IBinarySearchT
 		return count;
 	}
 
-	private int recSize(BTSNode<T> node)
+	private int recSize(BSTNode<T> node)
 	{
 		return (node == null) ? 0 : 1 + recSize(node.left) + recSize(node.right);
 	}
