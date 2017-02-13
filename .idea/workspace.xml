@@ -2,18 +2,119 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f77e5b23-160c-44e6-be12-18a047f564b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/BSTNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/BTNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/CharacterNotFoundException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/InvalidMorseFormat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/MorseDecoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/MorseDecoderApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/MorseTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/morseDictionary.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/BTSNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Arrays/NumberArrayStatsApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/ContactStore/ContactInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/ContactStore/ContactInfoApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/ContactStore/InvalidContactException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Inheritance/InheritanceApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Inheritance/Person.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Inheritance/Student.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Inheritance/UnderGraduate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Recursion/RecursionApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Sudoku/GameBoard.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Sudoku/SudokuApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Swing/TemperatureConverter.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Swing/TemperatureConverter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Tree/DrawTreeApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Tree/Rectangle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Tree/RectangleInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Tree/RightTriangle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Tree/ShapeBasics.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Tree/ShapeInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Tree/Square.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Tree/TreeDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Tree/Triangle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Tree/TriangleInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/UML/Audio.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/UML/Book.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/UML/ItemType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/UML/Journal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/UML/LibraryItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/UML/Video.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Exmaple/AverageCalculator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Exmaple/AverageCalculatorApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Homework/HW4/Time.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Homework/HW4/Time12.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Homework/HW4/TimeApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Homework/HW5/Item.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Homework/HW5/StoreApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Homework/HW5/Transaction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Homework/HW7/Fibonacci.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Homework/HW7/FibonacciApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Homework/HW8/NoSuchSentenceException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Homework/HW8/NoSuchWordException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Homework/HW8/Sentence.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Homework/HW8/SentenceReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Homework/HW8/SentenceReaderApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Labs/Lab1/HelloWorldApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Labs/Lab14/Keno.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Labs/Lab14/KenoApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Labs/Lab15/AlarmClock.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Labs/Lab15/Clock.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Labs/Lab15/ClockApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Labs/Lab18/Reader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Labs/Lab18/ReaderApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Labs/Lab18/Writer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Labs/Lab18/WriterApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Projects/FileIO/NumberManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Projects/FileIO/NumberManagerApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Projects/Recursion/AdderApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Projects/Recursion/RecursiveAdder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Projects/Sorting/ArraySorter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Projects/Sorting/SortingApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/ArrayQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/ArrayStack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/BSTNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/BTNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/BinarySearchTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/EmptyStackException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/IBinarySearchTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/IIntLog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/IStringLog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/LinkedQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/LinkedStack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/RecursiveMath.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/StringLogArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/StringLogLinked.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/StringLogLinkedNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/UnderflowException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/App.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/Date.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/InvalidDataBaseException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/InvalidDateFormatException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/LinkedList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/LinkedNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/Patient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/PatientDBHeadless.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/PatientDatabase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/CharacterNotFoundException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/InvalidMorseFormat.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/MorseDecoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/MorseDecoderApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/MorseTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/morseDictionary.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UIButton.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UIComponent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UILabel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UIManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UIPanel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UITester/UITester.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UITester/UITesterApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UITextField.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/Sandbox/Sandbox.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/Utils/Console.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/Utils/EventNotifier.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/Utils/FileReaderNotOpenException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/Utils/FileV.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/Utils/FileWriterNotOpenException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/Utils/IKeyEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/Utils/Keyboard.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/Utils/MathV.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/Utils/Mouse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/Utils/Vector2f.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/LuminousVector/Utils/Vector2i.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/BinarySearchTree.java" afterPath="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/BinarySearchTree.java" />
     </list>
     <ignored path="CSCI-185.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +127,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CSCI-185$App.coverage" NAME="App Coverage Results" MODIFIED="1459379940437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.LuminousVector.CSCI260.Projects.Project1.*</FILTER>
@@ -40,76 +140,42 @@
     <favorites_list name="CSCI-185" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MorseDecoderApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/MorseDecoderApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MorseDecoder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/MorseDecoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MorseTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/MorseTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="19" column="59" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileV.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/Utils/FileV.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="morseDictionary.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/morseDictionary.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CharacterNotFoundException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/CharacterNotFoundException.java">
+    <leaf>
+      <file leaf-file-name="Date.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Projects/Project1/Date.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvalidMorseFormat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/InvalidMorseFormat.java">
+      <file leaf-file-name="InvalidDataBaseException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Projects/Project1/InvalidDataBaseException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="72">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Projects/Project1/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Projects/Project1/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -120,6 +186,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -135,19 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/Patient.java" />
-        <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/PatientDatabase.java" />
-        <option value="$PROJECT_DIR$/patients.txt" />
-        <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/InvalidDateFormatException.java" />
-        <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/PatientDBHeadless.java" />
-        <option value="$PROJECT_DIR$/src/com/LuminousVector/Utils/MathV.java" />
-        <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/Stack.java" />
-        <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/ArrayStack.java" />
-        <option value="$PROJECT_DIR$/src/com/LuminousVector/Utils/Vector2i.java" />
-        <option value="$PROJECT_DIR$/src/com/LuminousVector/Utils/Vector2f.java" />
-        <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Calculator/CalculatorUI.java" />
-        <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Calculator/CalculatorApp.java" />
         <option value="$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UIComponent.java" />
         <option value="$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UIPanel.java" />
         <option value="$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/Calculator/CalculatorUI.java" />
@@ -157,7 +211,6 @@
         <option value="$PROJECT_DIR$/src/com/LuminousVector/Utils/Mouse.java" />
         <option value="$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/Calculator/UITesterApp.java" />
         <option value="$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UIManager.java" />
-        <option value="$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UITester/UITester.java" />
         <option value="$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UIButton.java" />
         <option value="$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UITextField.java" />
         <option value="$PROJECT_DIR$/src/com/LuminousVector/Utils/Keyboard.java" />
@@ -167,8 +220,6 @@
         <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/IBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/UnderflowException.java" />
         <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/EmptyStackException.java" />
-        <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/LinkedStack.java" />
-        <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/LinkedQueue.java" />
         <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UITester/UITesterApp.java" />
         <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/BTSNode.java" />
@@ -180,26 +231,36 @@
         <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/MorseTree.java" />
         <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/BTNode.java" />
         <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/InvalidMorseFormat.java" />
-        <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/CharacterNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/MorseCodeApp.java" />
         <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/morseDictionary.txt" />
         <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/MorseTree.java" />
         <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/MorseDecoderApp.java" />
         <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/MorseDecoder.java" />
+        <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/CharacterNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/Arrays/NumberArrayStatsApp.java" />
+        <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Excersies/ContactStore/ContactInfoApp.java" />
+        <option value="$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UITester/UITester.java" />
+        <option value="$PROJECT_DIR$/src/com/LuminousVector/Tutoring/Midterm.java" />
+        <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/App.java" />
+        <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/LinkedQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/LinkedStack.java" />
+        <option value="$PROJECT_DIR$/src/com/LuminousVector/Tutoring/invest/Investment.java" />
+        <option value="$PROJECT_DIR$/src/com/LuminousVector/Tutoring/invest/invst.txt" />
+        <option value="$PROJECT_DIR$/src/com/LuminousVector/Tutoring/invest/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/LuminousVector/Tutoring/invest/TotalInvestment.java" />
+        <option value="$PROJECT_DIR$/src/com/LuminousVector/Tutoring/invest/Stock.java" />
+        <option value="$PROJECT_DIR$/src/com/LuminousVector/Tutoring/invest/Cash.java" />
+        <option value="$PROJECT_DIR$/src/LuminousVector/Tutoring/invest/Stock.java" />
+        <option value="$PROJECT_DIR$/src/LuminousVector/Graphics/UI/UITester/UITester.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
-    </option>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenProjectNavigator">
     <treeState />
@@ -207,18 +268,12 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="width" value="1932" />
+    <option name="height" value="1092" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
+  <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="2" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -235,18 +290,125 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSCI-185" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSCI-185" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSCI-185" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSCI-185" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LuminousVector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSCI-185" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSCI-185" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LuminousVector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSCI260" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSCI-185" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSCI-185" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LuminousVector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSCI260" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSCI-185" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSCI-185" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LuminousVector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSCI260" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="UI&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/src/com/LuminousVector/Graphics/UI/UITester/UITesterApp.java&#10;sand&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/src/com/LuminousVector/Sandbox/Sandbox.java&#10;linked&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/src/com/LuminousVector/CSCI260/Projects/Project1/LinkedList.java&#10;san&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/src/com/LuminousVector/Sandbox/Sandbox.java&#10;calc&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/src/com/LuminousVector/CSCI151/Excersies/Calculator/CalculatorUI.java&#10;patient&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/patients_out.txt&#10;App&#9;PSI&#9;JAVA://com.LuminousVector.CSCI151.Exmaple.AverageCalculatorApp&#10;ui&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/src/com/LuminousVector/CSCI151/Excersies/Calculator/CalculatorUI.java&#10;Ca&#9;PSI&#9;JAVA://com.LuminousVector.Excersies.Calculator.CalculatorApp" />
+    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/src/com/LuminousVector/CSCI151/Excersies/ContactStore/ContactInfoApp.java&#10;pat&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/src/com/LuminousVector/CSCI260/Projects/Project1/PatientDatabase.java&#10;list&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/src/com/LuminousVector/CSCI260/Projects/Project1/LinkedList.java&#10;sta&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/src/com/LuminousVector/CSCI260/Excercies/LinkedStack.java&#10;QU&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/src/com/LuminousVector/CSCI260/Excercies/LinkedQueue.java&#10;li&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/src/com/LuminousVector/CSCI260/Projects/Project1/LinkedList.java&#10;NODE&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/src/com/LuminousVector/CSCI260/Projects/Project1/LinkedNode.java&#10;UI&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/src/com/LuminousVector/Graphics/UI/UITester/UITesterApp.java&#10;sand&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/src/com/LuminousVector/Sandbox/Sandbox.java&#10;linked&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/src/com/LuminousVector/CSCI260/Projects/Project1/LinkedList.java&#10;san&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/src/com/LuminousVector/Sandbox/Sandbox.java&#10;calc&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/src/com/LuminousVector/CSCI151/Excersies/Calculator/CalculatorUI.java&#10;patient&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/patients_out.txt&#10;App&#9;PSI&#9;JAVA://com.LuminousVector.CSCI151.Exmaple.AverageCalculatorApp&#10;ui&#9;FILE&#9;file://C:/Users/Karuta/Documents/GitHub/CSCI-185/src/com/LuminousVector/CSCI151/Excersies/Calculator/CalculatorUI.java&#10;Ca&#9;PSI&#9;JAVA://com.LuminousVector.Excersies.Calculator.CalculatorApp" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="293" />
@@ -271,19 +433,22 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Karuta\Documents\GitHub\CSCI-185\src\com\LuminousVector\CSCI260\Projects\Project2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MorseDecoderApp">
+  <component name="RunManager" selected="Application.UITesterApp">
     <configuration default="false" name="Sandbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.LuminousVector.Sandbox.*" />
+          <option name="PATTERN" value="LuminousVector.Sandbox.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.LuminousVector.Sandbox.Sandbox" />
+      <option name="MAIN_CLASS_NAME" value="LuminousVector.Sandbox.Sandbox" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -299,11 +464,11 @@
     <configuration default="false" name="RecursiveMath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.LuminousVector.CSCI260.Projects.Project2.*" />
+          <option name="PATTERN" value="LuminousVector.CSCI260.Projects.Project2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.LuminousVector.CSCI260.Excercies.RecursiveMath" />
+      <option name="MAIN_CLASS_NAME" value="LuminousVector.CSCI260.Excercies.RecursiveMath" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -319,11 +484,11 @@
     <configuration default="false" name="UITesterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.LuminousVector.Graphics.UI.UITester.*" />
+          <option name="PATTERN" value="LuminousVector.Graphics.UI.UITester.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.LuminousVector.Graphics.UI.UITester.UITesterApp" />
+      <option name="MAIN_CLASS_NAME" value="LuminousVector.Graphics.UI.UITester.UITesterApp" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -339,11 +504,11 @@
     <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.LuminousVector.CSCI260.Projects.Project1.*" />
+          <option name="PATTERN" value="LuminousVector.CSCI260.Projects.Project1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.LuminousVector.CSCI260.Projects.Project1.App" />
+      <option name="MAIN_CLASS_NAME" value="LuminousVector.CSCI260.Projects.Project1.App" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -359,11 +524,11 @@
     <configuration default="false" name="MorseDecoderApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.LuminousVector.CSCI260.Projects.Project2.*" />
+          <option name="PATTERN" value="LuminousVector.CSCI260.Projects.Project2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.LuminousVector.CSCI260.Projects.Project2.MorseDecoderApp" />
+      <option name="MAIN_CLASS_NAME" value="LuminousVector.CSCI260.Projects.Project2.MorseDecoderApp" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -380,23 +545,33 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method />
@@ -415,8 +590,17 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -499,6 +683,9 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -590,6 +777,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
@@ -606,27 +794,6 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -654,6 +821,12 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
@@ -727,34 +900,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -765,7 +910,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -786,13 +931,37 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MorseDecoderApp" />
-        <item index="1" class="java.lang.String" itemvalue="Application.UITesterApp" />
-        <item index="2" class="java.lang.String" itemvalue="Application.App" />
+        <item index="0" class="java.lang.String" itemvalue="Application.UITesterApp" />
+        <item index="1" class="java.lang.String" itemvalue="Application.App" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MorseDecoderApp" />
         <item index="3" class="java.lang.String" itemvalue="Application.RecursiveMath" />
         <item index="4" class="java.lang.String" itemvalue="Application.Sandbox" />
       </list>
     </recent_temporary>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -821,7 +990,23 @@
       <workItem from="1462242610821" duration="7628000" />
       <workItem from="1462292660416" duration="432000" />
       <workItem from="1462387764318" duration="16245000" />
-      <workItem from="1462585703611" duration="468000" />
+      <workItem from="1462585703611" duration="1389000" />
+      <workItem from="1465852079854" duration="10000" />
+      <workItem from="1476987278870" duration="3085000" />
+      <workItem from="1477592032796" duration="3776000" />
+      <workItem from="1478196415638" duration="856000" />
+      <workItem from="1479409736695" duration="571000" />
+      <workItem from="1479410756594" duration="197000" />
+      <workItem from="1479411567333" duration="214000" />
+      <workItem from="1479422210242" duration="4909000" />
+      <workItem from="1479853842893" duration="1892000" />
+      <workItem from="1479856127927" duration="470000" />
+      <workItem from="1480619183161" duration="2991000" />
+      <workItem from="1480705637044" duration="4566000" />
+      <workItem from="1486178215630" duration="57000" />
+      <workItem from="1486178972375" duration="300000" />
+      <workItem from="1486354681847" duration="473000" />
+      <workItem from="1487012924958" duration="284000" />
     </task>
     <task id="LOCAL-00001" summary="Sorting Project">
       <created>1449325983324</created>
@@ -935,32 +1120,43 @@
       <option name="project" value="LOCAL" />
       <updated>1462251739169</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Project 2">
+      <created>1462586193998</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1462586193998</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68478000" />
+    <option name="totallyTimeSpent" value="94050000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1932" height="1092" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36760125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10660981" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1965812" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997923" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -972,6 +1168,9 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -998,7 +1197,8 @@
     <MESSAGE value="Recursive Math" />
     <MESSAGE value="CSCI 260 Project 1&#10;" />
     <MESSAGE value="Stack, Queue, Binary Search Tree&#10;UI Stuff, Text Field" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stack, Queue, Binary Search Tree&#10;UI Stuff, Text Field" />
+    <MESSAGE value="Project 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1009,366 +1209,363 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/IStringLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/IIntLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/RecursiveMath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/StringLogLinked.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI151/Exmaple/AverageCalculatorApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="12" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/Utils/Console.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patients.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patients_out.txt">
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Utils/Mouse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/LinkedNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="27" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="44" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/InvalidDataBaseException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/InvalidDateFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/Utils/MathV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/PatientDBHeadless.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="240" column="5" selection-start-line="240" selection-start-column="5" selection-end-line="240" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/PatientDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project1/Patient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="82" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/Utils/Vector2f.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/Calculator/CalcEntry.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UIPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UIComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/Utils/Vector2i.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UILabel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/Utils/Mouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UIManager.java">
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Graphics/UI/UIManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+          <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UITester/UITester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UIButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/Utils/Keyboard.java">
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Utils/Keyboard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/Sandbox/Sandbox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="18" column="12" selection-start-line="16" selection-start-column="0" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UITextField.java">
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Graphics/UI/UITextField.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
-          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+          <caret line="49" column="51" lean-forward="false" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/EmptyStackException.java">
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Excercies/EmptyStackException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/ArrayQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Excercies/ArrayQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/LinkedStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/UnderflowException.java">
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Excercies/UnderflowException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/ArrayStack.java">
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Excercies/ArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/LinkedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/IBinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Excercies/IBinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/Graphics/UI/UITester/UITesterApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="101" column="32" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/BSTNode.java">
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Excercies/BSTNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
-          <caret line="1966" column="0" selection-start-line="1966" selection-start-column="0" selection-end-line="1966" selection-end-column="0" />
-          <folding />
+          <caret line="1966" column="0" lean-forward="false" selection-start-line="1966" selection-start-column="0" selection-end-line="1966" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Excercies/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="185" column="25" selection-start-line="185" selection-start-column="25" selection-end-line="185" selection-end-column="25" />
+          <caret line="185" column="25" lean-forward="false" selection-start-line="185" selection-start-column="25" selection-end-line="185" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Excercies/BTNode.java">
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Excercies/BTNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding />
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/Utils/FileV.java">
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Projects/Project2/CharacterNotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/MorseDecoderApp.java">
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Projects/Project2/InvalidMorseFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/MorseDecoder.java">
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Projects/Project2/morseDictionary.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="414">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/MorseTree.java">
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Projects/Project2/MorseDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="19" column="59" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="162">
+          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/CharacterNotFoundException.java">
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Projects/Project2/MorseDecoderApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/InvalidMorseFormat.java">
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Projects/Project2/MorseTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="414">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/LuminousVector/CSCI260/Projects/Project2/morseDictionary.txt">
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Tutoring/ExeceptionsApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI151/Excersies/Recursion/RecursionApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Sandbox/Sandbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI151/Excersies/Arrays/NumberArrayStatsApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI151/Excersies/ContactStore/ContactInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="46" column="40" lean-forward="false" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Graphics/UI/UIButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Graphics/UI/UIPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Tutoring/Midterm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Excercies/LinkedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Excercies/LinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Projects/Project1/LinkedNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patients_out.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Utils/FileV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Utils/EventNotifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Utils/FileReaderNotOpenException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Utils/IKeyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Projects/Project1/InvalidDateFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI151/Excersies/ContactStore/ContactInfoApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Utils/Console.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Projects/Project1/PatientDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Tutoring/invest/Investment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Tutoring/invest/TotalInvestment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="53" column="48" lean-forward="false" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Tutoring/invest/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Tutoring/invest/invst.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Tutoring/invest/Cash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Tutoring/invest/Stock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Graphics/UI/UITester/UITesterApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/Graphics/UI/UITester/UITester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Projects/Project1/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Projects/Project1/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Projects/Project1/InvalidDataBaseException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LuminousVector/CSCI260/Projects/Project1/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
